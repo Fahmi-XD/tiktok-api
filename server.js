@@ -7,7 +7,7 @@ const tiktokRouter = require('./Router/tiktok-router');
 
 const app = express();
 const http = server.createServer(app);
-const port = 6060;
+const port = process.env.PORT || 4000;
 
 app.use(cors({ origin: '*' }));
 app.use(bodyParser.json());
