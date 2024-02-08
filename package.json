@@ -1,0 +1,23 @@
+{
+    "name": "react-tt-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Fahmi XD",
+    "license": "ISC",
+    "dependencies": {
+        "@tobyg74/tiktok-api-dl": "^1.0.13",
+        "axios": "^1.6.7",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}
